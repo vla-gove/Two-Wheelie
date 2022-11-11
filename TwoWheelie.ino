@@ -1,7 +1,7 @@
-//pwm motors init
+//pwm motors 
 int PWM1 = 3;
 int PWM2 = 5;
-//direction pins init
+//direction pins 
 int Dir1 = 4;
 int Dir2 = 6;
 
