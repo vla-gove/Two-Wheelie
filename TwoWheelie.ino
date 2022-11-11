@@ -4,12 +4,14 @@ int PWM2 = 5;
 //direction pins init
 int Dir1 = 4;
 int Dir2 = 6;
+
 //prototypes
 void fwd(int); //forward
 void rvrs(int); //reverse
 void rght(int); //turn right
 void lft(int); // turn left
 void stp(int); //stop
+
 void setup()
 {
 pinMode(PWM1, OUTPUT);
