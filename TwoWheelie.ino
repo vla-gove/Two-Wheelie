@@ -22,13 +22,13 @@ pinMode(Dir2, OUTPUT);
 void loop()
 {
 //desired car movement [in ms]
-fwd(1500);
+fwd(2500);
 
 rght(500);
 
 fwd(2000);
 
-lft(750);
+lft(500);
 
 rvrs(2500);
 
@@ -48,7 +48,6 @@ delay(tdelay);
 
 void rvrs(int tdelay)
 {
-
 digitalWrite(Dir1, LOW);
 analogWrite(PWM1, 255);
 
@@ -60,7 +59,6 @@ delay(tdelay);
 
 void rght(int tdelay)
 {
-
 digitalWrite(Dir1, LOW);
 analogWrite(PWM1, 200);
 
@@ -72,7 +70,6 @@ delay(tdelay);
 
 void lft(int tdelay)
 {
-
 digitalWrite(Dir1, HIGH);
 analogWrite(PWM1, 255);
 
@@ -84,7 +81,6 @@ delay(tdelay);
 
 void stp(int tdelay)
 {
-
 digitalWrite(Dir1, LOW);
 analogWrite(PWM1, 0);
 
