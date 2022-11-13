@@ -1,4 +1,5 @@
 # Two-Wheelie
-Two Wheeled Car based on Arduino
+RF Controlled Two Wheeled Car based on Arduino
 
-Uses an Arduino Uno, 2 DC motors, one H-Bridge and a Hex Inverter, a power source (preferably a battery due to mobility) and a toy car chassis.
+The car uses an Arduino Uno, 2 DC motors, one H-Bridge and a Hex Inverter, a power source (preferably a battery due to mobility) and a toy car chassis.
+Transmitter and reciever modules, an extra Arduino Uno or similar, and the miscellaneous hardware (buttons/switches, breadboard etc.) are necessary for RF control.
