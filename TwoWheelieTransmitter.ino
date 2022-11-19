@@ -49,6 +49,12 @@ void loop() {
     vw_send((uint8_t *)temparray, strlen(temparray));  
     vw_wait_tx();                                              
   }
+   if (digitalRead(stop) == LOW) {
+    button = 100;
+    itoa(button, temparray, 10);
 
+    vw_send((uint8_t *)temparray, strlen(temparray));  
+    vw_wait_tx();                                              
+  }
   
 }
